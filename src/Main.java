@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 1753;
-        System.out.println("Стоимость билета:" + x);
-        int y = 20;
-        int m = (int) (x / y);
-        System.out.println("Начисленные мили: " + m + " миль");
+        int price = 1753;
+        System.out.println("Стоимость билета:" + price);
+        int tick = 20;
+        int miles = (int) (price / tick);
+        System.out.println("Начисленные мили: " + miles + " миль");
     }
 }
